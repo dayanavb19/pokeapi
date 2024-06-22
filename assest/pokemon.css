@@ -1,0 +1,157 @@
+
+.icono{
+  left: 10px;
+  right: 0px;
+  top: 15px;
+
+}
+ul{
+    list-style-type: none;
+    justify-content:flex-star;
+}
+
+
+body {
+  background: rgb(85, 144, 189);
+  background: linear-gradient(
+    90deg,
+    rgb(31, 2, 138) 0%,
+    rgb(8, 161, 8) 54%,
+    rgb(239, 243, 29) 82%
+  );
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Oswald", sans-serif;
+}
+
+
+.pokemon-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+  width: 80%;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-bottom: 40px;
+  margin-top: 10px;
+}
+
+
+.pokemon-block-back {
+  border-radius: 10px;
+  padding-left: 5px;
+  padding-right: 5px;
+  background-color: rgb(10, 11, 11);
+  box-shadow: 10px 5px 30px rgba(230, 248, 31, 0.85);
+  color: #d6eeee;
+  font-size: 20px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.pokemon-block{  
+  border-radius: 10px;
+  padding: 50px;
+  background-color: rgb(10, 11, 11);
+  box-shadow: 0 5px 30px rgba(230, 248, 31, 0.85);
+  color: #d6eeee;
+  font-size: 30px;
+  margin-left: 5px;
+  margin-right: 5px;
+
+}
+.img-container {
+  width: 380px;
+  padding: 10px
+  
+}
+
+.pokemon-block  {
+  margin: 10px;
+}
+
+.name {
+  text-transform: capitalize;
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+
+
+.pagination {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
+  justify-content: space-between;
+  
+  
+}
+
+.card-container {
+  position: relative;
+  width: 80%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+.flip-card:hover .card-container {
+  transform: rotateY(180deg);
+}
+
+.pokemon-block,
+.pokemon-block-back {
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+.pokemon-block-back {
+  transform: rotateY(180deg);
+  position: absolute;
+  top: 0%;
+}
+
+.stat-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  text-align: left;
+}
+.tarjetas{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 30px;
+  width: 80%;
+  margin-left: 10px;
+  margin-right: auto;
+  margin-bottom: 40px;
+  margin-top: 10px;
+  
+  
+  
+}
+.tarjeta2{
+  height: 800px;
+  width: 500px;
+  border-radius: 10px;
+  padding: 30px;
+  background-color: rgb(187, 221, 221);
+  box-shadow: 0 5px 30px rgba(222, 9, 9, 0.85);
+  color: #032020;
+}
+.tarjeta3{
+  height: 800px;
+  width: 500px;
+  border-radius: 10px;
+  padding: 30px;
+  background-color: rgba(57, 10, 152, 0.761);
+  box-shadow: 0 5px 30px rgba(222, 9, 9, 0.85);
+  color: #79c7c7;
+}
+.buscar{
+  border-radius: 5px;
+  background-color: rgba(28, 6, 73, 0.958);
+  color: aquamarine;
+
+}
